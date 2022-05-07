@@ -1,0 +1,213 @@
+* {
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-image: url(../img/Home/gamersky_04origin_07_201898152868B.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	flex-wrap: wrap;
+}
+
+body {
+	width: 1000px;
+	background: rgba(255, 255, 255, 0.3);
+	margin: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	
+}
+
+header {
+	height: 250px;
+	background: url(../img/Home/1.png);
+	text-align: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	border-radius: 100px;
+	border: solid white 3px;
+}
+
+header span {
+	display: block;
+	font-size: 24px;
+	color: white;
+	text-shadow: 2px 2px 2px plum;
+}
+
+header a {
+	text-decoration: none;
+}
+
+nav {
+	height: 40px;
+	background: transparent;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+nav ul li {
+	float: left;
+	width: 163px;
+	padding-left: 1px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	border-left: solid 2px gainsboro;
+}
+
+nav ul li:nth-of-type(1) {
+	border-left: transparent;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	display: block;
+	background: lightyellow;
+	font-size: 24px;
+	color: black;
+}
+
+#section1 {
+	flex: 20%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+	border-radius: 5px;
+}
+
+.left {
+	flex-basis: 55%;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+}
+
+.left img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.left span {
+	display: block;
+	margin: 5px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+.right {
+	flex-basis: 44%;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+}
+
+.right img {
+	width: 200px;
+	height: 180px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.right span {
+	display: block;
+	margin: 8px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+#section2 {
+	flex: 20%;
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#section2 img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#section2 span {
+	display: block;
+	margin: 8px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+#section3 {
+	flex: 20%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.left2 {
+	flex-basis: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+}
+
+.left2 img {
+	width: 300px;
+	height: 190px;
+	margin: 10px;
+	border-radius: 5px;
+	float: right;
+}
+
+.left2 span {
+	display: block;
+	margin: 5px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+
+#navpic {
+	float: left;
+	width: 8px;
+	height: 21px;
+	margin: 12px 8px 0px 10px;
+	background: brown;
+}
+
+#nav2 {
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 10px;
+	width: 1000px;
+	height: 50px;
+	border-radius: 0 0 10px 10px;
+	background: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	
+}
+
+
+

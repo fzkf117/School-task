@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1,width=device-width,user-scalable=no"/>
+		<title>留言</title>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+	</head>
+	<body>
+		<header>
+				<a href="Sign in.html">
+				<img src="img/Home/2.jpg"/>
+				<span>登陆</span>			
+				</a>				
+		</header>
+		<nav>
+			<ul>	
+			<li><a href="Home.html">首页</a></li>
+			<li><a href="geography.html">地理环境</a></li>
+			<li><a href="nature.html">自然资源</a></li>
+			<li><a href="culture.html">民俗文化</a></li>
+			<li><a href="scenery.html">风景墙</a></li>
+			<li><a href="">留言</a></li>
+			</ul>
+		</nav>
+		
+			
+		<form action="comment.html" method="get" target="tocomment">							
+		<section id="section0">留言/建议</section>
+		<section id="section1">
+			<div class="left">
+				<ul>
+				<span>Q1：你希望我们网站有怎样的设计特色</span>
+				<li><input type="radio" name="1"/>严谨，大方，内容为本，设计专业</li>
+				<li><input type="radio" name="1"/>浪漫，温馨，视觉设计新潮</li>
+				<li><input type="radio" name="1"/>简洁，清晰。目的性强</li>
+				<li><input type="radio" name="1"/>视觉冲击力强、独特、新颖</li>
+			</ul>
+			</div>
+			<div class="middle">
+				<ul>
+				<span>Q2：你对网站的哪方面最重视</span>
+				<li><input type="radio" name="2"/>网页色彩</li>
+				<li><input type="radio" name="2"/>网站结构</li>
+				<li><input type="radio" name="2"/>网页内容</li>
+				<li><input type="radio" name="2"/>服务应用</li>
+			</ul>
+			</div>
+			<div class="right">
+				<ul>
+				<span>Q3：对我们网站总体评价</span>
+				<li><input type="radio" name="3"/>十分满意</li>
+				<li><input type="radio" name="3"/>满意</li>
+				<li><input type="radio" name="3"/>一般</li>
+				<li><input type="radio" name="3"/>不满意</li>
+			</ul>
+			</div>
+		</section>
+		<section id="section2">
+			<p>请写下您对我们网站的一些建议或反馈：</p>
+			<textarea name="textarea1" placeholder="请填写内容" ></textarea>
+		</section>
+		<section id="section3">
+			<input type="submit" value="提交" />
+		</section>
+		</form>	
+		
+			<section id="section4">
+			<span>其它网友评论：</span>
+			<iframe name="tocomment" ></iframe>
+		</section>
+		
+		<footer>留言</footer>
+	</body>
+</html>

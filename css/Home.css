@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html {
+	background-image: url(../img/Home/gamersky_04origin_07_201898152868B.jpg);
+	background-attachment: fixed;/*背景图像相对于窗体固定*/
+	background-size: cover;/*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
+}
+
+body {
+	width: 1000px;
+	background: rgba(255, 255, 255, 0.3);
+		/*rgba() 函数使用红(r)、绿(g)、蓝(b)、透明度(a)的叠加来生成各式各样的颜色。
+		rgba 即红色、绿色、蓝色、透明度（red, green, blue, alpha）在对应的位置就代表对应的颜色以及透明度
+			红色（r）0 到 255 间的整数，代表颜色中的红色成分
+			绿色（g）0 到 255 间的整数，代表颜色中的绿色成分
+			蓝色（b）0 到 255 间的整数，代表颜色中的蓝色成分
+			透明度（a）取值 0~1 之间， 代表透明度*/
+	margin: auto;
+}
+
+
+header div {
+	width: 1000px;
+	height: 250px;
+	background: url(../img/Home/1.png) no-repeat;
+	text-align: center;
+}
+header img {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	border-radius: 100px;
+	border: solid white 3px;
+}
+header span {
+	display: block;
+	font-size: 24px;
+	color: white;
+	text-shadow: 2px 2px 2px plum;
+	text-shadow: 5px 5px 5px red;
+}
+header a {
+	text-decoration: none;
+}
+
+
+
+nav {
+	height: 40px;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+nav ul li {
+	float: left;
+	width: 163px;
+	padding-left: 1px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	border-left: solid 2px gainsboro;
+}
+
+nav ul li:nth-of-type(1) {
+	border-left: transparent;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	display: block;
+	background: lightyellow;
+	font-size: 24px;
+	color: black;
+}
+
+aside {
+	background: rgba(255, 255, 255, 0.7);
+	width: 280px;
+	height: 755px;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+}
+
+#navpic {
+	float: left;
+	width: 8px;
+	height: 21px;
+	margin: 12px 8px 0px 8px;
+	background: brown;
+}
+
+#nav2 {
+	display: block;
+	font-size: 20px;
+	margin-top: 10px;
+	height: 25px;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: left;
+}
+
+aside span:nth-of-type(2) {
+	display: block;
+	text-indent: 2em;
+	margin: 10px;
+	line-height: 30px;
+	text-align: left;
+}
+
+aside span:nth-of-type(3) {
+	display: block;
+	text-indent: 2em;
+	margin: 10px;
+	line-height: 30px;
+	text-align: left;
+}
+
+aside img {
+	border-radius: 5px;
+	width: 250px;
+	height: 150px;
+}
+
+article {
+	float: right;
+	width: 710px;
+	height: 755px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+}
+
+article img {
+	widows: 356px;
+	height: 342px;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px darkgray;
+	margin: 0px 20px 0px 20px;
+}
+
+article span {
+	margin: 0px 20px 0px 20px;
+	line-height: 40px;
+	text-indent: 2em;
+	display: block;
+}
+
+footer {
+	margin-top: 10px;
+	width: 1000px;
+	height: 50px;
+	border-radius: 0 0 10px 10px;
+	background: rgba(255, 255, 255, 0.7);
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+}

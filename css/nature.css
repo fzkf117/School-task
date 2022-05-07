@@ -1,0 +1,167 @@
+	*{
+		font-family:"微软雅黑" ;
+	}
+	html{				
+		background-image: url(../img/Home/gamersky_04origin_07_201898152868B.jpg);
+		background-attachment: fixed;
+		background-size:cover;				
+	}
+	body{
+		width: 1017px;	
+		background:rgba(255,255,255,0.3);					
+		margin: auto;			
+	}
+	
+	header div{
+		width: 1017px;
+		height:250px;
+		background: url(../img/Home/1.png) no-repeat;
+		text-align: center;		 	
+	}
+	header img{
+		width: 100px;
+		height: 100px; 
+		margin-top: 50px;
+		border-radius:100px ; 
+		border: solid white 3px;
+	}
+	header span{
+		display: block;
+		width: 50px;
+		font-size: 24px;
+		color: white;
+		margin-left: 475px;
+		text-shadow:  2px 2px 2px plum;	
+	}
+	header a{		
+		text-decoration: none;
+	}
+	nav{
+		height: 40px;				
+	}
+	nav ul{
+		list-style: none;	
+		padding-left: 0px;
+		display: inline;					
+	}
+	nav ul li{
+		float: left;
+		width: 163px;
+		font-size: 20px;
+		text-align: center;				
+		line-height: 40px;
+		border-left: solid 2px gainsboro;
+	}
+	nav ul li:nth-of-type(1){
+					border-left: transparent;
+				}
+	nav ul li a{
+		display: block;
+		text-decoration: none;
+		color: white;
+	}
+	nav ul li a:hover{
+		display: block;
+		background: lightyellow;
+		font-size: 24px;
+		color:black; 
+	}
+	article{
+		width: 1017px;
+		height: 1350px;
+		background: rgba(255, 255, 255, 0.7);
+		border-radius:10px;
+		padding-top: 10px;
+	}
+	#navpic{
+	position: relative;
+	left: 20px;
+	top: 10px;
+	width: 8px;
+	height: 21px;
+	background:brown;
+	}			
+	#nav2{
+	position: relative;
+	top: -13px;
+	left: 40px;
+	font-size:20px ;
+	height: 25px;
+	font-weight: bold;				
+	}
+	
+	
+	
+	
+	.content1{
+		position: absolute;
+		width: 900px;
+		margin-left: 50px;
+		background: rgba(255,255,255,0.5);
+		padding: 10px;
+	}
+	.content2{
+		position: absolute;
+		width: 900px;
+		margin-left: 50px;
+		margin-top: 220px;
+		background: rgba(255,255,255,0.5);
+		padding: 10px;
+	}
+	.content3{
+		position: absolute;
+		width: 428px;
+		margin-left: 50px;
+		margin-top: 650px;
+		background: rgba(255,255,255,0.5);
+		padding: 10px;
+	}
+	
+	
+	.content4{
+		position: absolute;
+		width: 428px;
+		margin-left: 522px;
+		margin-top: 650px;
+		background: rgba(255,255,255,0.5);
+		padding: 10px;
+	}
+	
+	.content5{
+		position: absolute;
+		width: 900px;
+		margin-left: 50px;
+		margin-top: 1020px;
+		background: rgba(255,255,255,0.5);
+		padding: 10px;
+	}
+	
+	
+	
+	
+	
+	article img{
+		border-radius: 5px;
+	}
+	#title{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0 10px 10px;
+	
+	}
+	#content{
+	display: block;
+	vertical-align: top;
+	line-height: 30px;
+	text-indent: 2em;
+	}
+	footer{
+	margin-top: 10px;
+	width: 1017px;
+	height: 50px;
+	border-radius: 0 0 10px 10px;
+	background: rgba(255,255,255,0.7);
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	}

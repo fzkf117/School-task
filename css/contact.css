@@ -1,0 +1,265 @@
+		* {
+			font-family: "微软雅黑";
+			margin: 0;
+			padding: 0;
+		}
+		
+		html {
+			background-image: url(../img/Home/gamersky_04origin_07_201898152868B.jpg);
+			background-attachment: f ixed;
+			background-size: cover;
+		}
+		
+		body {
+			width: 65.9%;
+			height: 1100px;
+			background: rgba(255, 255, 255, 0.3);
+			margin: auto;
+			display: flex;
+			flex-flow: column nowrap;
+		}
+		
+		header {
+			height: 250px;
+			background: url(../img/Home/1.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		
+		header img {
+			width: 100px;
+			height: 100px;
+			margin-top: 50px;
+			border-radius: 100px;
+			border: solid white 3px;
+		}
+		
+		header span {
+			display: block;
+			font-size: 24px;
+			color: white;
+			text-shadow: 2px 2px 2px plum;
+		}
+		
+		header a {
+			text-decoration: none;
+		}
+		
+		nav {
+			background: transparent;
+		}
+		
+		nav ul {
+			height: 40px;
+			list-style: none;
+			padding-left: 0px;
+			display: flex;
+			flex-flow: row nowrap;
+		}
+		
+		nav ul li {
+			flex: 16.4%;
+			font-size: 20px;
+			text-align: center;
+			line-height: 40px;
+			border-left: solid 2px gainsboro;
+		}
+		
+		nav ul li:nth-of-type(1) {
+			border-left: transparent;
+		}
+		
+		nav ul li a {
+			display: block;
+			text-decoration: none;
+			color: white;
+		}
+		
+		nav ul li a:hover {
+			display: block;
+			background: lightyellow;
+			font-size: 24px;
+			color: black;
+		}
+		
+		form {
+			display: flex;
+			flex: 47.3%;
+			flex-flow: column nowrap;
+		}
+		
+		#section0 {
+			height: 40px;
+			background: rgba(255, 255, 255, 0.9);
+			border-radius: 8px;
+			text-align: center;
+			line-height: 40px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		#section1 {
+			flex: 20%;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+		}
+		
+		#section1 ul {
+			list-style: none;
+			line-height: 30px;
+			margin-top: 20px;
+			margin-left: 30px;
+		}
+		
+		#section1 ul span {
+			font-weight: bold;
+			margin-left: -20px;
+		}
+		
+		.left {
+			flex: 33.2%;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 2px;
+		}
+		
+		.middle {
+			flex: 33.1%;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 2px;
+		}
+		
+		.right {
+			flex: 33.1%;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 2px;
+		}
+		
+		#section2 {
+			flex: 20%;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 2px;
+			padding: 20px;
+		}
+		
+		textarea {
+			height: 90%;
+			width: 100%;
+		}
+		
+		#section3 {
+			height: 40px;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 2px;
+			text-align: center;
+		}
+		
+		form input[type='submit'] {
+			width: 60px;
+			height: 30px;
+		}
+		
+		#section4 {
+			flex: 20%;
+			margin-top: 2px;
+			background: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+		}
+		
+		
+		iframe {
+			width: 100%;
+			height: 100%;
+			border: transparent;
+		}
+		
+		footer {
+			margin-top: 5px;
+			height: 50px;
+			border-radius: 0 0 10px 10px;
+			background: rgba(255, 255, 255, 0.7);
+			text-align: center;
+			font-size: 14px;
+			line-height: 50px;
+		}
+		
+		@media only screen and (max-width:768px) {
+			header {
+				height: 200px;
+			}
+			body {
+				width: 80%;
+				font-size: 15px;
+				height: 1300px;
+			}
+			nav ul {
+				height: 30px;
+			}
+			nav ul li {
+				font-size: 16px;
+				line-height: 30px;
+			}
+			nav ul li a:hover {
+				font-size: 18px;
+			}
+			#section1 {
+				flex: 30%;
+				flex-wrap: wrap;
+			}
+			.left {
+				flex-basis: 49.5%;
+			}
+			.middle {
+				flex-basis: 49.5%;
+			}
+			.right {
+				flex-basis: 100%;
+			}
+		}
+		
+		@media only screen and (max-width:375px) {
+			body {
+				width: 100%;
+				font-size: 15px;
+				height: 1400px;
+			}
+			header img {
+				margin-top: 30px;
+			}
+			nav ul {
+				flex-flow: wrap;
+				height: 60px;
+			}
+			nav ul li {
+				font-size: 16px;
+				flex: 32%;
+				line-height: 30px;
+			}
+			nav ul li:nth-of-type(4) {
+				border-left: none;
+				border-top: solid 2px gainsboro;
+				;
+			}
+			nav ul li:nth-of-type(5) {
+				border-top: solid 2px gainsboro;
+				;
+			}
+			nav ul li:nth-of-type(6) {
+				border-top: solid 2px gainsboro;
+				;
+			}
+			#section1 {
+				flex: 40%;
+				flex-wrap: wrap;
+			}
+			.left {
+				flex-basis: 100%;
+			}
+			.middle {
+				flex-basis: 100%;
+			}
+			.right {
+				flex-basis: 100%;
+			}
+		}

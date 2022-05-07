@@ -1,0 +1,63 @@
+0<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/sign in.css"/>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		
+	</head>
+	<body>
+		<audio  controls="controls">
+				<source src="music/John Dreamer.mp3">
+				<source src="music/John Dreamer.m4a">
+				<source src="music/John Dreamer.wav"> 
+		</audio>
+		<header>		
+			<div>
+				<span>欢迎使用</span>	
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Home.html">首&emsp;&emsp;页</a></li>
+				<li><a href="contact.html">在线留言</a></li>
+			</ul> 
+		</nav>
+		<section>
+			<img class="photo" src="img/Home/2.jpg"/>
+			<form action="mailto:1771716561@qq.com" method="post"  onsubmit="return check(this)" >
+				用户名：<input type="text" id="username" maxlength="10" tabindex="1"/>
+				<br />
+				邮&emsp;箱：<input type="email" id="email" tabindex="2"/>
+				<br />
+				密&emsp;码：<input type="password" id="password1" autofocus="autofocus" tabindex="3"/>
+				<br />
+				<input type="submit" value="注册" onclick="check(this.form)"/>
+				
+				<input type="reset" value="重置"/>
+			</form>
+			<script type="text/javascript">
+			function check(form){
+				if(document.getElementById("username").value==""){
+					alert("没有输入用户名")
+					form.username.focus();
+					return false;
+				}else if(document.getElementById("email").value==""){
+					alert("没有输入邮箱！");
+					form.email.focus();
+        			return false;
+				}
+				else if(document.getElementById("password1").value==""){
+					alert("没有输入密码！");
+					form.password1.focus();
+        			return false;
+				}else {
+     			   alert("注册成功！")
+       				 return true;
+      			 }
+			}
+		</script>
+		</section>
+		
+	</body>
+</html>

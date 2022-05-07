@@ -1,0 +1,169 @@
+* {
+	font-family: "微软雅黑";
+}
+
+html {
+	background-image: url(../img/Home/gamersky_04origin_07_201898152868B.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body {
+	width: 1000px;
+	background: rgba(255, 255, 255, 0.3);
+	margin: auto;
+}
+
+header div {
+	width: 1000px;
+	height: 250px;
+	background: url(../img/Home/1.png) no-repeat;
+	text-align: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	border-radius: 100px;
+	border: solid white 3px;
+}
+
+header span {
+	display: block;
+	font-size: 24px;
+	color: white;
+	text-shadow: 2px 2px 2px plum;
+}
+
+header a {
+	text-decoration: none;
+}
+
+nav {
+	height: 40px;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+}
+
+nav ul li {
+	float: left;
+	width: 163px;
+	padding-left: 1px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	border-left: solid 2px gainsboro;
+}
+
+nav ul li:nth-of-type(1) {
+	border-left: transparent;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	display: block;
+	background: lightyellow;
+	font-size: 24px;
+	color: black;
+}
+
+article {
+	width: 1000px;
+	height: 1500px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.Table {
+	display: table;
+	width: 900px;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 10px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.Tr { 
+	display: table-row;
+}
+
+.Td-top {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 500px;
+}
+ 
+.Td-left {
+	display: table-cell;
+	width: 280px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.Td-left img {
+	border-radius: 5px;
+	width: 280px;
+	height: 200px;
+}
+
+.Td-right {
+	display: table-cell;
+	width: 590px;
+	height: 200px;
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+
+#navpic {
+	float: left;
+	width: 8px;
+	height: 21px;
+	margin: 12px 8px 0px 50px;
+	background: brown;
+}
+
+#nav2 {
+	display: block;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 25px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#title {
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#content {
+	display: block;
+	line-height: 30px;
+	text-indent: 2em;
+}
+
+footer {
+	margin-top: 10px;
+	width: 1000px;
+	height: 50px;
+	border-radius: 0 0 10px 10px;
+	background: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+}
